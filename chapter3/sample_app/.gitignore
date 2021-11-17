@@ -40,3 +40,7 @@
 yarn-debug.log*
 .yarn-integrity
 db/test.*
+bin
+vendor
+/bin
+/vendor
