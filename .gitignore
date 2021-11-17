@@ -1,3 +1,4 @@
+.idea
 *.gem
 *.rbc
 /.config
@@ -39,7 +40,7 @@ build-iPhoneSimulator/
 /_yardoc/
 /doc/
 /rdoc/
-
+*/vendor
 ## Environment normalization:
 /.bundle/
 /vendor/bundle
