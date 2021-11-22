@@ -1,6 +1,6 @@
 require 'test_helper'
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get home" do
+  test "GET #home should render the root page, a success response, and a correct title " do
     get root_path
     assert_response :success
     assert_select "title", "Ruby on Rails Tutorial Sample App"
